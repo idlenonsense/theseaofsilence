@@ -17,6 +17,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STAFF_OF_SILENCE = ITEMS.register("staff_of_silence",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROUGH_SCALE = ITEMS.register("rough_scale",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHARD_OF_SILENCE = ITEMS.register("shard_of_silence",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TEAR_OF_MIKOTO = ITEMS.register("tear_of_mikoto",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

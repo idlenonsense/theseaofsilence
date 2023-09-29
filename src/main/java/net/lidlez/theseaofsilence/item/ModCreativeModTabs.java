@@ -20,6 +20,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SHALLOW_MIXTURE.get());
                         pOutput.accept(ModItems.LANGUID_DUST.get());
                         pOutput.accept(ModItems.STAFF_OF_SILENCE.get());
+                        pOutput.accept(ModItems.SHARD_OF_SILENCE.get());
+                        pOutput.accept(ModItems.ROUGH_SCALE.get());
+                        pOutput.accept(ModItems.TEAR_OF_MIKOTO.get());
                     })
                     .build());
 
