@@ -17,12 +17,19 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHALLOW_MIXTURE.get()))
                     .title(Component.translatable("creativetab.tss_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.LOST_PAGE_1.get());
+                        pOutput.accept(ModItems.LOST_PAGE_2.get());
+                        pOutput.accept(ModItems.LOST_PAGE_3.get());
+                        pOutput.accept(ModItems.LOST_PAGE_4.get());
+
                         pOutput.accept(ModItems.SHALLOW_MIXTURE.get());
                         pOutput.accept(ModItems.LANGUID_DUST.get());
                         pOutput.accept(ModItems.STAFF_OF_SILENCE.get());
                         pOutput.accept(ModItems.SHARD_OF_SILENCE.get());
                         pOutput.accept(ModItems.ROUGH_SCALE.get());
                         pOutput.accept(ModItems.TEAR_OF_MIKOTO.get());
+
+
                     })
                     .build());
 

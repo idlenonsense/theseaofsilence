@@ -3,6 +3,7 @@ package net.lidlez.theseaofsilence;
 import com.mojang.logging.LogUtils;
 import net.lidlez.theseaofsilence.item.ModCreativeModTabs;
 import net.lidlez.theseaofsilence.item.ModItems;
+import net.lidlez.theseaofsilence.loot.ModLootModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,6 +39,7 @@ public class TheSeaOfSilence
 
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

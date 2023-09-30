@@ -23,6 +23,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TEAR_OF_MIKOTO = ITEMS.register("tear_of_mikoto",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LOST_PAGE_1 = ITEMS.register("lost_page_1",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LOST_PAGE_2 = ITEMS.register("lost_page_2",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LOST_PAGE_3 = ITEMS.register("lost_page_3",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LOST_PAGE_4 = ITEMS.register("lost_page_4",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
