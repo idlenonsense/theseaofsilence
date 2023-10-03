@@ -23,7 +23,8 @@ public class ModBlocks {
     * Непосредственно добавляем блоки
     */
     public static  final RegistryObject<Block> LANGUID_STONE = registerBlock("languid_stone",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.AMETHYST)));
+            () -> new LanguidStoneBlock(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).strength(1.2F, 3.0F)));
+
 
 
     /*
