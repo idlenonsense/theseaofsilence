@@ -1,6 +1,7 @@
 package net.lidlez.theseaofsilence;
 
 import com.mojang.logging.LogUtils;
+import net.lidlez.theseaofsilence.block.ModBlocks;
 import net.lidlez.theseaofsilence.item.ModCreativeModTabs;
 import net.lidlez.theseaofsilence.item.ModItems;
 import net.lidlez.theseaofsilence.loot.ModLootModifiers;
@@ -40,6 +41,7 @@ public class TheSeaOfSilence
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

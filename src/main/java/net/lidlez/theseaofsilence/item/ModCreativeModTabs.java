@@ -1,6 +1,7 @@
 package net.lidlez.theseaofsilence.item;
 
 import net.lidlez.theseaofsilence.TheSeaOfSilence;
+import net.lidlez.theseaofsilence.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,6 +29,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SHARD_OF_SILENCE.get());
                         pOutput.accept(ModItems.ROUGH_SCALE.get());
                         pOutput.accept(ModItems.TEAR_OF_MIKOTO.get());
+
+                        pOutput.accept(ModBlocks.LANGUID_STONE.get());
 
 
                     })
