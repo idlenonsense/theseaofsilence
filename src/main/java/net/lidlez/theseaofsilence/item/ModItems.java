@@ -1,7 +1,9 @@
 package net.lidlez.theseaofsilence.item;
 
 import net.lidlez.theseaofsilence.TheSeaOfSilence;
+import net.lidlez.theseaofsilence.block.ModBlocks;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,6 +25,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TEAR_OF_MIKOTO = ITEMS.register("tear_of_mikoto",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WATER_LILY = ITEMS.register("water_lily",
+            () -> new ItemNameBlockItem(ModBlocks.WATER_LILY.get(), new Item.Properties()));
     public static final RegistryObject<Item> LOST_PAGE_1 = ITEMS.register("lost_page_1",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LOST_PAGE_2 = ITEMS.register("lost_page_2",

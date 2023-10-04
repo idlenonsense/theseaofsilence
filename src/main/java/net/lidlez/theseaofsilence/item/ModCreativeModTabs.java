@@ -29,6 +29,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SHARD_OF_SILENCE.get());
                         pOutput.accept(ModItems.ROUGH_SCALE.get());
                         pOutput.accept(ModItems.TEAR_OF_MIKOTO.get());
+                        pOutput.accept(ModItems.WATER_LILY.get());
 
                         pOutput.accept(ModBlocks.LANGUID_STONE.get());
 
