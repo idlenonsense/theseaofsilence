@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LOST_PAGE_2.get());
                         pOutput.accept(ModItems.LOST_PAGE_3.get());
                         pOutput.accept(ModItems.LOST_PAGE_4.get());
+                        pOutput.accept(ModItems.STORY_BOOK.get());
 
                         pOutput.accept(ModItems.SHALLOW_MIXTURE.get());
                         pOutput.accept(ModItems.LANGUID_DUST.get());
@@ -29,6 +30,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SHARD_OF_SILENCE.get());
                         pOutput.accept(ModItems.ROUGH_SCALE.get());
                         pOutput.accept(ModItems.TEAR_OF_MIKOTO.get());
+                        pOutput.accept(ModItems.SOUL_CATALYST.get());
+                        pOutput.accept(ModItems.LANGUID_SHARD.get());
 
                         pOutput.accept(ModBlocks.LANGUID_STONE.get());
 

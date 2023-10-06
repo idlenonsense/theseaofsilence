@@ -31,6 +31,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LOST_PAGE_4 = ITEMS.register("lost_page_4",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STORY_BOOK = ITEMS.register("story_book",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SOUL_CATALYST = ITEMS.register("soul_catalyst",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LANGUID_SHARD = ITEMS.register("languid_shard",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
