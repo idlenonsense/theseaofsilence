@@ -23,12 +23,14 @@ public class ModBlocks {
     * Непосредственно добавляем блоки
     */
     public static  final RegistryObject<Block> LANGUID_STONE = registerBlock("languid_stone",
-            () -> new LanguidStoneBlock(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).strength(1.2F, 3.0F)));
+            () -> new LanguidStoneBlock(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).strength(1.2F, 3.0F).noLootTable()));
+    public static  final RegistryObject<Block> WATER_LILY = BLOCKS.register("water_lily",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
 
 
     /*
-     * Система регистрации блоков?
+     * Система регистрации блоков
      */
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
