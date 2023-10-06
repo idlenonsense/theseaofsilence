@@ -16,6 +16,7 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraftforge.common.Tags;
 
 import javax.annotation.Nullable;
 
@@ -50,6 +51,6 @@ public class LanguidStoneBlock extends BushBlock implements SimpleWaterloggedBlo
 
     @Override
     protected boolean mayPlaceOn(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
-        return pState.is(BlockTags.SAND) || pState.is(Blocks.GRAVEL);
+        return pState.is(BlockTags.SAND) || pState.is(Tags.Blocks.GRAVEL);
     }
 }

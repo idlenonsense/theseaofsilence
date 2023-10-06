@@ -18,7 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> LANGUID_DUST = ITEMS.register("languid_dust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STAFF_OF_SILENCE = ITEMS.register("staff_of_silence",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> ROUGH_SCALE = ITEMS.register("rough_scale",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHARD_OF_SILENCE = ITEMS.register("shard_of_silence",
@@ -36,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> LOST_PAGE_4 = ITEMS.register("lost_page_4",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STORY_BOOK = ITEMS.register("story_book",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new StoryBookItem.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SOUL_CATALYST = ITEMS.register("soul_catalyst",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LANGUID_SHARD = ITEMS.register("languid_shard",

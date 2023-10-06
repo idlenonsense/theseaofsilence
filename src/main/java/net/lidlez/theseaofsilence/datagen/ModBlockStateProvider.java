@@ -17,6 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlockWithItem(ModBlocks.WATER_LILY.get(), models().cross(blockTexture(ModBlocks.WATER_LILY.get()).getPath(),
                 blockTexture(ModBlocks.WATER_LILY.get())).renderType("cutout"));
+        blockWithItem(ModBlocks.ANCIENT_PORTAL);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

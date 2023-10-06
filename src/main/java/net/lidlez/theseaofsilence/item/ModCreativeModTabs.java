@@ -35,6 +35,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LANGUID_SHARD.get());
 
                         pOutput.accept(ModBlocks.LANGUID_STONE.get());
+                        pOutput.accept(ModBlocks.ANCIENT_PORTAL.get());
 
 
                     })
