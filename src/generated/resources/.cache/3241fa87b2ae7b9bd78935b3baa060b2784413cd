@@ -1,5 +1,6 @@
-// 1.20.1	2023-10-06T14:47:55.5174028	Global Loot Modifiers : theseaofsilence
-99c4650b4db3b52b47b7aae927c4298c29cc8444 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2023-10-08T13:51:08.3750724	Global Loot Modifiers : theseaofsilence
+6381ac4e22cb248de1ceb1fceae656008e2febc4 data/forge/loot_modifiers/global_loot_modifiers.json
 5c0b9c1d010d8728e0a373a8347d12dc83501e71 data/theseaofsilence/loot_modifiers/first_page_from_guard.json
 64929d15b2654617561a6aab567c49017e873c71 data/theseaofsilence/loot_modifiers/shard_of_silence_from_guard.json
+a3fe827d1c1033d14ccc52be5f633c606bde64a3 data/theseaofsilence/loot_modifiers/soul_catalyst_from_warden.json
 9c34f726ae9546c9e7f2679050a470a257a4324e data/theseaofsilence/loot_modifiers/story_book_from_village.json

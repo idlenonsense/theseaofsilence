@@ -27,5 +27,9 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village/village_cartographer")).build(),
                     LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.STORY_BOOK.get()));
+
+        add("soul_catalyst_from_warden", new AddItemsModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/warden")).build()
+        }, ModItems.SOUL_CATALYST.get()));
     }
 }

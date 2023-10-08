@@ -14,27 +14,27 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TheSeaOfSilence.MOD_ID);
 
     public static final RegistryObject<Item> SHALLOW_MIXTURE = ITEMS.register("shallow_mixture",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LANGUID_DUST = ITEMS.register("languid_dust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STAFF_OF_SILENCE = ITEMS.register("staff_of_silence",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new StaffOfSilence(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> ROUGH_SCALE = ITEMS.register("rough_scale",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHARD_OF_SILENCE = ITEMS.register("shard_of_silence",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TEAR_OF_MIKOTO = ITEMS.register("tear_of_mikoto",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WATER_LILY = ITEMS.register("water_lily",
             () -> new ItemNameBlockItem(ModBlocks.WATER_LILY.get(), new Item.Properties()));
     public static final RegistryObject<Item> LOST_PAGE_1 = ITEMS.register("lost_page_1",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LOST_PAGE_2 = ITEMS.register("lost_page_2",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LOST_PAGE_3 = ITEMS.register("lost_page_3",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LOST_PAGE_4 = ITEMS.register("lost_page_4",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> STORY_BOOK = ITEMS.register("story_book",
             () -> new Item(new StoryBookItem.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SOUL_CATALYST = ITEMS.register("soul_catalyst",
